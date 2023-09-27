@@ -1,0 +1,110 @@
+/* src/Chatbox.css */
+
+/* Center the messages vertically within the chat container */
+.chat-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+  max-width: 100%;
+  margin: 0 auto;
+  /* Center the chat container horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.messages {
+  padding: 20px;
+  height: 30px;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center messages vertically within the container */
+}
+
+/* User and AI message styles remain unchanged */
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-top: 10px solid #fff;
+  background-color: #fff;
+  width: 50%;
+  /* Adjust the width to match the chat container */
+  max-width: 100%;
+  /* Ensure it doesn't exceed the container width */
+  margin: 0 auto;
+
+  /* Add an outer border to the input container */
+  border: 2px solid #020000;
+  /* You can adjust the color and width as needed */
+
+  /* Add rounded corners to the input container */
+  border-radius: 20px;
+  /* You can adjust the border-radius value for the desired roundness */
+}
+
+.font-size {
+  font-size: 20px;
+  font-style: oblique;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 15px;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  /* Remove border-radius from .message-input to round only the input container */
+  font-size: 20px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.send-button {
+    color: #fff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* .send-button:hover {
+  background-color: green;
+} */
+
+.user-message{
+  background: white;
+  font-style: normal;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.ai-message{
+  font-size: 19px;
+    font-style: oblique;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.message-image {
+  width: 35px; /* Set the width to your desired size */
+  height: 35px; /* Set the height to your desired size */
+  margin-right: 15px; 
+}
